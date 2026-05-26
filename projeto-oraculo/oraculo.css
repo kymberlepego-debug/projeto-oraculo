@@ -1,0 +1,39 @@
+body{
+    background:#000;
+    color:#D4AF37;
+    font-family:Arial,sans-serif;
+    margin:0;
+}
+
+.dashboard{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+    padding:20px;
+}
+
+.kpi{
+    background:#111;
+    padding:20px;
+    border-radius:10px;
+    border:1px solid #D4AF37;
+}
+
+.kpi span{
+    font-size:32px;
+    font-weight:bold;
+}
+
+.graficos{
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    gap:20px;
+    padding:20px;
+}
+
+.grafico-card{
+    background:#111;
+    padding:20px;
+    border-radius:10px;
+    border:1px solid #D4AF37;
+}
